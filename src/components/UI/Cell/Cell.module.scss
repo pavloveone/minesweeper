@@ -1,0 +1,17 @@
+@use "../../../styles/utils" as *;
+
+.cell {
+  @include flex-center();
+  font-weight: bold;
+  border: 1px solid $white;
+  background: $gray;
+  cursor: pointer;
+
+  &.hidden {
+    background: $gray;
+  }
+
+  &.shown {
+    background: #a1d0ad;
+  }
+}

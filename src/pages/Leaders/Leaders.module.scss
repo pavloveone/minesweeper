@@ -1,0 +1,18 @@
+@use "../../styles/utils" as *;
+
+.leaders {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 450px;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+@media screen and (max-width: $bpSmall) {
+  .leaders {
+    width: 100%;
+  }
+}
