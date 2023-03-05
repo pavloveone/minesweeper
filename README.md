@@ -38,9 +38,9 @@
 ## Установка
 
 ```bash
-git clone https://github.com/Krasivoe/minesweeper-react.git
-cd minesweeper-react
-npm install
+git clone git@github.com:pavloveone/minesweeper.git
+cd minesweeper
+npm i
 ```
 
 ## Сборка development
